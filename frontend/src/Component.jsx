@@ -24,7 +24,7 @@ const Component = () => {
       });
       const data = await res.json();
       console.log(data);
-      setLink(`${window.location.href}/${data._id}`);
+      setLink(`${window.location.href}${data._id}`);
       setLoading(false);
     } catch (error) {
       console.error(error);
@@ -92,3 +92,4 @@ const Component = () => {
 };
 
 export default Component;
+
