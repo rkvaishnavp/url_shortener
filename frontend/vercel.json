@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api/*",
-      "destination": "https://url-short-rah0.onrender.com/*"
+      "source": "/api",
+      "destination": "https://url-short-rah0.onrender.com"
     }
   ]
 }
